@@ -1,9 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .App {
   text-align: center;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 10vmin;
   pointer-events: none;
 }
 
@@ -26,6 +30,14 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.Q-Text {
+  font-size: 1.5rem;
+  font-weight: 600;
+  max-width: 80%;
+  text-align: center;
+  align-self: center;
 }
 
 @keyframes App-logo-spin {
